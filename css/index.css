@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0; /* le saco el margin y el padding que viene por defecto en la pagina */
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: auto;
+}
+.contenedor{
+    display: flex;
+    width: 100%; /* le doy un ancho maximo del 90% */ 
+    margin: 0 auto; /* margin auto me centra todo automaticamente */
+    overflow: auto;
+}
+.imagen{
+    width: 450px;
+    height: 280px;
+}
+
+.barra{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(31, 94, 95);
+    text-align: right; /* alineo el texto a la derecha */
+    padding: 30px 180px 30px 0px; /* le doy espacio interior con el padding: ARRIBA:30PX ; DERECHA 150PX; ABAJO 0; IZQUIERDA 0;*/
+    overflow: auto;
+}
+.barra > a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.linksBarra:hover{
+    transition: 0.5s;
+    background-color: rgb(36, 113, 114);
+    padding: 8px 8px;
+    border-radius: 5px;
+}
+.tituloBarra{
+    padding-right: 40%;
+    font-weight: bold;
+    font-size: 35px !important;
+}
+.textoTitulo{
+    text-align: center;
+    position: absolute;
+    margin: 16% 20%;
+    color: aliceblue;
+    font-size: 43px;
+}
+.botonTextoTitulo{
+    width: 14%;
+    height: 8%;
+    text-align: center;
+    position: absolute;
+    margin: 26% 43%;
+    padding: 18px 8px;
+    background-color: transparent;
+    border: 4px solid;
+    color: aliceblue;
+    border-radius: 8px;
+    border-color: rgb(31, 94, 95);;
+    font-size: 30px;
+    text-decoration: none;
+}
+.botonTextoTitulo:hover{
+    transition: 0.5s;
+    background-color: rgb(31, 94, 95);
+}
+
+.imagenCentral{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(31, 94, 95);
+    text-align: center;
+}
+.contenidoPie{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 30px 0px;
+}
+.contenedorPublicidad {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    border: 4px solid cornflowerblue;
+    border-radius: 20px;
+    margin: 1% 1%;
+    overflow: auto;
+}
+.publicidad{
+    padding: 3% 1%;
+}
+.publicidad > a > img{
+    width: 550px;
+    height: 390px;
+}
+.video{
+    margin-top: 1%;
+}
+
+
+
